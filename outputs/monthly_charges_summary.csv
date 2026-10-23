@@ -1,0 +1,5 @@
+segment,customers,churned,churn_rate_pct
+$35-$70,1725,413,23.94
+$70-$90,1844,697,37.8
+Over $90,1739,570,32.78
+Under $35,1735,189,10.89

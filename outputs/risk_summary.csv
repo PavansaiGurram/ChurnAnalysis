@@ -1,0 +1,4 @@
+segment,customers,churned,churn_rate_pct
+High,1994,1024,51.35
+Low,2223,114,5.13
+Medium,2826,731,25.87

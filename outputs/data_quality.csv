@@ -1,0 +1,11 @@
+check,count,handling
+source_rows,7043,Rows present in the source CSV
+analysis_rows,7043,Rows retained for churn analysis
+rows_missing_required_fields,0,Dropped before analysis
+duplicate_customer_ids,0,Keep first record per customer ID if any exist
+blank_total_charges,11,Retained as missing
+invalid_tenure_outside_0_to_120,0,Reported; investigate if non-zero
+negative_monthly_charges,0,Reported; investigate if non-zero
+missing_TotalCharges,11,Not imputed; inspect before modeling
+iqr_outliers_MonthlyCharges,0,"Retained; investigate, not automatically removed"
+iqr_outliers_TotalCharges,0,"Retained; investigate, not automatically removed"
